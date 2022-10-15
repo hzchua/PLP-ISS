@@ -34,9 +34,9 @@ return improvement_list
 The script should contain a function for main.py to call upon, e.g.:
 ```
 def res_sent(restaurant_name):  
-.................... <br>
-.................... <br>
-.................... <br>
+....................
+....................
+....................
 return sentiment_scores
 ```
 
@@ -45,9 +45,9 @@ return sentiment_scores
 The script should contain a function for main.py to call upon, e.g.:
 ```
 def res_rec():  
-.................... <br>
-.................... <br>
-.................... <br>
+....................
+....................
+....................
 return top3_recommendation
 ```
 
