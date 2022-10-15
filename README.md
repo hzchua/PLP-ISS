@@ -24,9 +24,9 @@ main.py will contains the chatbot codes to call the individual model / functions
 The script should contain a function for main.py to call upon, e.g.:
 ```
 def res_imp(restaurant_name):  
-.................... <br>
-.................... <br>
-.................... <br>
+.................... 
+.................... 
+.................... 
 return improvement_list
 ```
 ### restaurant_sentiments.py
