@@ -1,4 +1,4 @@
-# PLP-ISS
+# PLP-ISS (Intelligent System Sense-R)
 
 The models folder should look like this:
 ```
