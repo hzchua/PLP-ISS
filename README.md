@@ -63,8 +63,9 @@ git clone <Github Repo URL>
 
 Enter folder and create a new environment to sandbox your developmental workspace (with Command Prompt)
 ```
-py -3.7 -m venv "YOUR_ENV_NAME"
-"YOUT_ENV_NAME"\Scripts\activate
+cd <Github Repo Folder>           (Change directory to Github Repo Folder directory)
+py -3.7 -m venv "YOUR_ENV_NAME"   (Create virtual environment)
+"YOUT_ENV_NAME"\Scripts\activate  (Avtivate virtual environment)
 ```
 
 **Step 3: Download the Models**
