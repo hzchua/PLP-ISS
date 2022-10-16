@@ -88,4 +88,6 @@ pip install -r requirements.txt
 
 ### User Guide
 
+```
 **Open Command Prompt and go to Github Repo Folder and key in "python chatbot.py" **
+```
