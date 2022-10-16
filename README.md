@@ -51,4 +51,37 @@ def res_rec():
 return top3_recommendation
 ```
 
-  
+### Installation
+
+**Step 1: Get the repository**
+
+Using git clone 
+```
+git clone <Github Repo URL>
+```
+**Step 2: Create a Virtual Environment**
+
+Enter folder and create a new environment to sandbox your developmental workspace (with Command Prompt)
+```
+cd Code
+py -3.7 -m venv "YOUR_ENV_NAME"
+"YOUT_ENV_NAME"\Scripts\activate
+```
+
+**Step 3: Download the Models**
+
+**Download pretrained & trained models and replace the pipeline_models folder**: <br/>https://drive.google.com/file/d/1FeBgqDi4ktVVu5x1CgsF63K3lKkSGTYZ/view?usp=sharing
+
+The folder structure will look like this:
+```
+models/
+
+
+```
+
+**Step 4: Install Dependencies**
+
+Install dependencies via the following command
+```
+pip install -r requirements.txt
+```
