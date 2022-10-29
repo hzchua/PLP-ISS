@@ -89,5 +89,8 @@ pip install -r requirements.txt
 ### User Guide
 
 ```
-**Open Command Prompt and go to Github Repo Folder and key in "python chatbot.py" **
+1) Open Command Prompt
+2) Input **cd <Github Repo Folder>** to change directory 
+3) Input **"YOUT_ENV_NAME"\Scripts\activate** to activate the virtual environment
+4) Key in **python chatbot.py**
 ```
