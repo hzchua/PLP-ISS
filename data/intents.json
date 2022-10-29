@@ -1,0 +1,126 @@
+{
+ "intents": [
+  {
+   "tag": "greetings",
+   "responses": [
+    "Howdy!",
+    "Hello",
+    "How are you doing?",
+    "Greetings!",
+    "How do you do?",
+    "Hi",
+    "Nice to meet you!!",
+    "Pleasure to meet you!!"
+   ]
+  },
+  {
+   "tag": "apologies",
+   "responses": [
+    "I'm sorry to hear that",
+    "Hope you feel better",
+    "Tomorrow will be a better day!"
+   ]
+  },
+  {
+   "tag": "age",
+   "responses": [
+    "My age is a secret\u2026 hehe",
+    "Don't tell you!!",
+    "Forever 18!!",
+    "Forever young!!"
+   ]
+  },
+  {
+   "tag": "bot",
+   "responses": [
+    "I am Sense-R. I am here to help you to find out more on restaurant related matters.",
+    "Sense-R here to help you with restaurant matters"
+   ]
+  },
+  {
+   "tag": "annoy",
+   "responses": [
+    "I'm sorry if I offended you.",
+    "Apologies for any offending comments I made"
+   ]
+  },
+  {
+   "tag": "compliments",
+   "responses": [
+    "Thank you for your compliments!!",
+    "Thank you!!",
+    "Thanks for your praise!"
+   ]
+  },
+  {
+   "tag": "help",
+   "responses": [
+    "Sure, I will be glad to help!",
+    "Sense-R is here to assist you!",
+    "Leave it to Sense-R to resolve your problem!"
+   ]
+  },
+  {
+   "tag": "farewell",
+   "responses": [
+    "Goodbye!!",
+    "Cya soon!!",
+    "Catch you later!!",
+    "Hope to see you around again!"
+   ]
+  },
+  {
+   "tag": "okay",
+   "responses": [
+    "Okay!",
+    "Alright!",
+    "No problem!!",
+    "No issue"
+   ]
+  },
+  {
+   "tag": "wait",
+   "responses": [
+    "Okay! I will wait for you."
+   ]
+  },
+  {
+   "tag": "work",
+   "responses": [
+    "I work for my developer.",
+    "I'm here to service you.",
+    "Created by my developer to service you :)"
+   ]
+  },
+  {
+   "tag": "joke",
+   "responses": [
+    "I take my work seriously. I don't like to joke",
+    "I do not joke while working."
+   ]
+  },
+  {
+   "tag": "busy",
+   "responses": [
+    "I am fine, do you have anything to ask me?",
+    "I am busy.... but I am still here to assist you :D"
+   ]
+  },
+  {
+   "tag": "location",
+   "responses": [
+    "I live and work in Singapore",
+    "You can find me mostly in computers or laptops now.",
+    "I live inside your heart :)"
+   ]
+  },
+  {
+   "tag": "repeat",
+   "responses": [
+    "I'm sorry, can you repeat again?",
+    "I was unable to catch that, can you repeat again?",
+    "Pardon me, can you repeat again?"
+   ]
+  }
+ ]
+}
