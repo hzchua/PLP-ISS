@@ -65,7 +65,7 @@ Enter folder and create a new environment to sandbox your developmental workspac
 ```
 cd <Github Repo Folder>           (Change directory to Github Repo Folder directory)
 py -3.7 -m venv "YOUR_ENV_NAME"   (Create virtual environment)
-"YOUT_ENV_NAME"\Scripts\activate  (Avtivate virtual environment)
+"YOUR_ENV_NAME"\Scripts\activate  (Avtivate virtual environment)
 ```
 
 **Step 3: Download the Models**
@@ -88,9 +88,27 @@ pip install -r requirements.txt
 
 ### User Guide
 
+**Step 1: Open Terminal**
+
 ```
-1) Open Command Prompt
-2) Input **cd <Github Repo Folder>** to change directory 
-3) Input **"YOUT_ENV_NAME"\Scripts\activate** to activate the virtual environment
-4) Key in **python chatbot.py**
+Open Command Prompt
+```
+
+**Step 2: Change directory to Project Folder**
+
+```
+cd <Github Repo Folder>
+```
+
+**Step 3: Activate virtual environment**
+"YOUR_ENV_NAME" == Name of the virtual environment
+
+```
+"YOUR_ENV_NAME"\Scripts\activate**
+```
+
+**Step 4: Enter Command**
+
+```
+python chatbot.py
 ```
