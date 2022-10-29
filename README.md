@@ -75,6 +75,8 @@ py -3.7 -m venv "YOUR_ENV_NAME"   (Create virtual environment)
 The folder structure will look like this:
 ```
 models/
+    conv_model.pt
+    int_model.pt
 
 
 ```
