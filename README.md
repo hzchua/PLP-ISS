@@ -100,7 +100,8 @@ Open Command Prompt
 cd <Github Repo Folder>
 ```
 
-**Step 3: Activate virtual environment**
+**Step 3: Activate virtual environment** 
+
 "YOUR_ENV_NAME" == Name of the virtual environment
 
 ```
