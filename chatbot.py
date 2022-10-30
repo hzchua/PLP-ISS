@@ -2,6 +2,7 @@ import torch
 from utils.data import src_data, check_restaurant
 from sentence_transformers import SentenceTransformer
 from utils.mod_func import get_response, BERT_Arch, get_intent
+from utils.res_imp import res_imp
 
 print("Sense-R is waking up.....")
 
@@ -16,7 +17,7 @@ loaded_conv_model = torch.load(conv_model_path)
 
 sent_model = SentenceTransformer('all-distilroberta-v1')
 
-_, res_list = src_data(datafile)   #unique list of restaurant names from dataset
+df, res_list = src_data(datafile)   #unique list of restaurant names from dataset
 
 ###############################################################
 
@@ -29,7 +30,8 @@ while user_input != "exit":
     
     if intent == "restaurant improvements":
         restaurant = check_restaurant(res_list, sent_model)
-        # output = res_imp(restaurant)   ## function for restaurant improvement
+        search_term = input("Sense-R: Is there any aspect that you are interested in?\nUser: ")
+        output = res_imp(df, restaurant, search_term)   ## function for restaurant improvement
         if restaurant != None:
             print("Sense-r: Areas of improvements include:")
             print("1) Price\n2) Ambience\n3) Service")
