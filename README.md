@@ -1,19 +1,34 @@
-SECTION 1: PROJECT TITLE
 # PLP-ISS (Intelligent System Sense-R) – Restaurant Virtual Assistant
 
-SECTION 2: OBJECTIVES 
+## **SECTION 1: INTRODUCTION**
+
+Most restaurants are lacking an intelligent system that can analyse customer feedback and reviews to understand what the restaurant is still lacking in or what areas are necessary to be improved upon, in order to increase the customer retention rate. And on the customer side, they are also lacking an intelligent recommender system that can recommend restaurant choices to them based on top recommendations by other customers, or individual preferences or based on general sentiments of customers to the restaurant.
+
+Therefore, our team of five decided to resolve these issues by developing an intelligent virtual assistant for both the customer and the restaurant owner who is able to provide reliable restaurant recommendations, general sentiments of customers towards the restaurant, as well as suggestions for restaurant improvements. With that, the team introduce Intelligent Sentiment Sense-R (ISS).
+
+
+
+## **SECTION 2: OBJECTIVES** 
+
 The objective of the project is to create an intelligent system to recommend restaurants owners the different aspects of restaurants that require improvement, to take on the role of a restaurant recommender for customers and provide general sentiments of customers. The system will include:
 
 •	Aspect-Based Sentiment Analysis to identify the different areas of the restaurants, e.g., food quality or ambience, that requires further improvements
+
 •	General Sentiment Analysis to extract the general customers’ sentiments towards a specific restaurant
+
 •	Recommender System to produce the top recommended restaurants for customers to choose from
+
 •	And lastly, a chatbot or virtual assistant to incorporate the above-mentioned capabilities into a single platform
 
 
-SECTION 3: CREDITS / PROJECT CONTRIBUTION
+
+## **SECTION 3: CREDITS / PROJECT CONTRIBUTION**
 
 
-SECTION 4: PROJECT DESCRIPTION
+
+
+## **SECTION 4: PROJECT DESCRIPTION**
+
 The models folder should look like this:
 ```
 models/
@@ -65,7 +80,11 @@ def res_rec():
 return top3_recommendation
 ```
 
-SECTION 4: Installation
+
+
+
+## **SECTION 5: Installation**
+
 
 **Step 1: Get the repository**
 
@@ -100,7 +119,12 @@ Install dependencies via the following command
 pip install -r requirements.txt
 ```
 
-### User Guide
+
+
+
+## **SECTION 6: User Guide**
+
+
 
 **Step 1: Open Terminal**
 
