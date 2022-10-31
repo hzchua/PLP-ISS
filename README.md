@@ -1,5 +1,19 @@
-# PLP-ISS (Intelligent System Sense-R)
+SECTION 1: PROJECT TITLE
+# PLP-ISS (Intelligent System Sense-R) – Restaurant Virtual Assistant
 
+SECTION 2: OBJECTIVES 
+The objective of the project is to create an intelligent system to recommend restaurants owners the different aspects of restaurants that require improvement, to take on the role of a restaurant recommender for customers and provide general sentiments of customers. The system will include:
+
+•	Aspect-Based Sentiment Analysis to identify the different areas of the restaurants, e.g., food quality or ambience, that requires further improvements
+•	General Sentiment Analysis to extract the general customers’ sentiments towards a specific restaurant
+•	Recommender System to produce the top recommended restaurants for customers to choose from
+•	And lastly, a chatbot or virtual assistant to incorporate the above-mentioned capabilities into a single platform
+
+
+SECTION 3: CREDITS / PROJECT CONTRIBUTION
+
+
+SECTION 4: PROJECT DESCRIPTION
 The models folder should look like this:
 ```
 models/
@@ -51,7 +65,7 @@ def res_rec():
 return top3_recommendation
 ```
 
-### Installation
+SECTION 4: Installation
 
 **Step 1: Get the repository**
 
