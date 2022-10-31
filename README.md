@@ -1,10 +1,15 @@
 # PLP-ISS (Intelligent System Sense-R) - Restaurant Virtual Assistant
 
+ <p align="center" width="100%">
+    <img width="33%" src="https://cdn.icon-icons.com/icons2/3347/PNG/512/chef_cook_man_avatar_icon_210168.png"> 
+</p>
+  
+
 ## **SECTION 1: INTRODUCTION**
 
-Most restaurants are lacking an intelligent system that can analyse customer feedback and reviews to understand what the restaurant is still lacking in or what areas are necessary to be improved upon, in order to increase the customer retention rate. And on the customer side, they are also lacking an intelligent recommender system that can recommend restaurant choices to them based on top recommendations by other customers, or individual preferences or based on general sentiments of customers to the restaurant.
+<p>Most restaurants are lacking an intelligent system that can analyse customer feedback and reviews to understand what the restaurant is still lacking in or what areas are necessary to be improved upon, in order to increase the customer retention rate. And on the customer side, they are also lacking an intelligent recommender system that can recommend restaurant choices to them based on top recommendations by other customers, or individual preferences or based on general sentiments of customers to the restaurant.
 
-Therefore, our team of five decided to resolve these issues by developing an intelligent virtual assistant for both the customer and the restaurant owner who is able to provide reliable restaurant recommendations, general sentiments of customers towards the restaurant, as well as suggestions for restaurant improvements. With that, the team introduce Intelligent Sentiment Sense-R (ISS).
+Therefore, our team of five decided to resolve these issues by developing an intelligent virtual assistant for both the customer and the restaurant owner who is able to provide reliable restaurant recommendations, general sentiments of customers towards the restaurant, as well as suggestions for restaurant improvements. With that, the team introduce Intelligent Sentiment Sense-R (ISS). </p>
 
 
 
