@@ -1,4 +1,4 @@
-# PLP-ISS (Intelligent System Sense-R) – Restaurant Virtual Assistant
+# PLP-ISS (Intelligent System Sense-R) - Restaurant Virtual Assistant
 
 ## **SECTION 1: INTRODUCTION**
 
