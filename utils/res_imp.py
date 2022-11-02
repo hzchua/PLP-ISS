@@ -70,7 +70,7 @@ def res_imp(df, restaurant, search_term = ''):
         total_pos = sum(aggregate['positive'])
         total_neu = sum(aggregate['neutral'])
         total_neg = sum(aggregate['negative'])
-        print('There were ' + str(total_pos) + ' positive opinions, ' + str(total_neu) + ' neutral opinions, and ' + str(total_neg) + ' negative opinions about ' + restaurant)
+        print('Sense-R: There were ' + str(total_pos) + ' positive opinions, ' + str(total_neu) + ' neutral opinions, and ' + str(total_neg) + ' negative opinions about ' + restaurant)
         # give random positive, neutral and negative comment
         opins_pos = output.loc[output['positive'] == 1, ['aspect', 'opinion']].iloc[[random.randint(0, total_pos-1)]]
         opins_neu = output.loc[output['neutral'] == 1, ['aspect', 'opinion']].iloc[[random.randint(0, total_neu-1)]]
@@ -78,7 +78,7 @@ def res_imp(df, restaurant, search_term = ''):
         asp_pos, opin_pos = opins_pos['aspect'].iloc[0], opins_pos['opinion'].iloc[0]
         asp_neu, opin_neu = opins_neu['aspect'].iloc[0], opins_neu['opinion'].iloc[0]
         asp_neg, opin_neg = opins_neg['aspect'].iloc[0], opins_neg['opinion'].iloc[0]
-        print('There was a positive comment about ' + asp_pos + ' saying: ' + opin_pos + ',')
+        print('Sense-R: There was a positive comment about ' + asp_pos + ' saying: ' + opin_pos + ',')
         print('a neutral comment about ' + asp_neu + ' saying: ' + opin_neu + ',')
         print('and a negative comment about ' + asp_neg + ' saying: ' + opin_neg + '.')
     else:
@@ -87,9 +87,9 @@ def res_imp(df, restaurant, search_term = ''):
         pos = str(search_result['positive'][0])
         neu = str(search_result['neutral'][0])
         neg = str(search_result['negative'][0])
-        print('There were ' + pos + ' positive opinions, ' + neu + ' neutral opinions, and ' + neg + ' negative opinions about ' + search_term)
+        print('Sense-R: There were ' + pos + ' positive opinions, ' + neu + ' neutral opinions, and ' + neg + ' negative opinions about ' + search_term)
         # give the opinions
         opins = output.loc[output['aspect'] == search_term]['opinion']
-        print('The opinions for ' + search_term + ' were:')
+        print('Sense-R: The opinions for ' + search_term + ' were:')
         for opin in opins:
             print(opin + '\n')
