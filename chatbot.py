@@ -3,6 +3,7 @@ from utils.data import src_data, check_restaurant
 from sentence_transformers import SentenceTransformer
 from utils.mod_func import get_response, BERT_Arch, get_intent
 from utils.res_imp import res_imp
+from utils.restaurant_sentiments import res_sent
 
 print("Sense-R is waking up.....")
 
@@ -30,22 +31,18 @@ while user_input != "exit":
     
     if intent == "restaurant improvements":
         restaurant = check_restaurant(res_list, sent_model)
-        if restaurant != None:
-            search_term = input("Sense-R: Is there any aspect that you are interested in?\nUser: ")
-            output = res_imp(df, restaurant, search_term)   ## function for restaurant improvement
-            # print("Sense-r: Areas of improvements include:")
-            # print("{}".format(output))
+        search_term = input("Sense-R: Is there any aspect that you are interested in?\nUser: ")
+        print("Sense-R is looking through customer reviews.... Pls wait a while....")
+        output = res_imp(df, restaurant, search_term)   ## function for restaurant improvement
         user_input = input("Sense-R: Are there any other things that I can help you with?\nUser: ")
         if user_input.lower() in ["n", "no", "nope"]:
             user_input = "exit"
         
     elif intent == "customer sentiments":
         restaurant = check_restaurant(res_list, sent_model)
-        # output = res_sent(res_name)
-        # print(output)
-        if restaurant != None:
-            print("Sense-r: Sentiments of customers towards this restaurant is:")
-            print("Happy (60%), Upset (30%), Angry (10%)")
+        review_input = input("Sense-R: May I know what is your review for this restaurant?\nUser: ")
+        output = res_sent(review_input,restaurant)
+        print(output)
         user_input = input("Sense-R: Are there any other things that I can help you with?\nUser: ")
         if user_input.lower() in ["n", "no", "nope"]:
             user_input = "exit"
