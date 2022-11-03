@@ -38,11 +38,7 @@ The objective of the project is to create an intelligent system to recommend res
 | FAN YUECHEN | xxx      |    work items |
 
 
-## **SECTION 4: PROJECT DESCRIPTION**
-
-
-
-## **SECTION 5: Installation**
+## **SECTION 4: Installation**
 
 
 **Step 1: Get the repository**
@@ -83,8 +79,7 @@ pip install -r requirements.txt
 ```
 
 
-## **SECTION 6: User Guide**
-
+## **SECTION 5: User Guide**
 
 
 **Step 1: Open Terminal**
