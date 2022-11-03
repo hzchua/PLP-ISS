@@ -14,10 +14,10 @@ torch.manual_seed(1234)
 
 ############## Parameters ###################################
 device = "cpu"
-df = pd.read_excel("dataset.xlsx", sheet_name="main")
+df = pd.read_excel("data\dataset.xlsx", sheet_name="main")
 total_labels = len(df["label"].unique())
 
-model_path = "../models/int_model.pt"
+model_path = "models/int_model.pt"
 le = LabelEncoder()
 max_seq_len = 8
 df['label'] = le.fit_transform(df['label'])
@@ -161,4 +161,5 @@ if __name__ == "__main__":
     loaded_tokenizer = BertTokenizerFast.from_pretrained("bert-base-uncased")
     get_intent("Good morning!",loaded_model, loaded_tokenizer)
     get_intent("Give me top few restaurants",loaded_model, loaded_tokenizer)
-    get_intent("Restaurant improvements?",loaded_model, loaded_tokenizer)
+    get_intent("Where to give feedback?",loaded_model, loaded_tokenizer)
+    get_intent("How to improve the restaurant to become better?",loaded_model, loaded_tokenizer)
