@@ -68,7 +68,7 @@ models/
     int_model.pt
     mappingTable.pkl
     mnb_model.pkl
-    similiarityMatrix.pkl
+    similiarityMatrix.npy
 ```
 
 **Step 4: Install Dependencies**
