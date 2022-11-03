@@ -4,6 +4,7 @@ from sentence_transformers import SentenceTransformer
 from utils.mod_func import get_response, BERT_Arch, get_intent
 from utils.res_imp import res_imp
 from utils.restaurant_sentiments import res_sent
+from utils.restaurant_recommender import res_rec
 
 print("Sense-R is waking up.....")
 
@@ -48,16 +49,13 @@ while user_input != "exit":
             user_input = "exit"
         
     elif intent == "restaurant recommender":
-        # output = res_rec()
-        # print(output)
-        print("Sense-r: Top Recommendations include:")
-        print("1) Revolution Cafe\n2) Claim Jumper\n3) Black Bear Diner")
+        output = res_rec()
+        print(output)
         user_input = input("Sense-R: Are there any other things that I can help you with?\nUser: ")
         if user_input.lower() in ["n", "no", "nope"]:
             user_input = "exit"
     
     elif intent == "conversation":
-        # bot_out = intent_output(conv_model, user_input, conversation_labels, 0.2)
         bot_out = get_response(user_input, loaded_conv_model)
         print("Sense-R: {}".format(bot_out))
         user_input = input("User: ")
