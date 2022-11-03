@@ -91,5 +91,10 @@ def res_imp(df, restaurant, search_term = ''):
         # give the opinions
         opins = output.loc[output['aspect'] == search_term]['opinion']
         print('Sense-R: The opinions for ' + search_term + ' were:')
+        num = 1
         for opin in opins:
-            print(opin + '\n')
+            if num == len(opins):
+                print(str(num) +") " + opin)
+            else:
+                print(str(num) +") " + opin + '\n')
+                num += 1
