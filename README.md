@@ -58,7 +58,7 @@ py -3.7 -m venv "YOUR_ENV_NAME"   (Create virtual environment)
 
 **Step 3: Download the Models**
 
-**Download pretrained & trained models and replace the pipeline_models folder**: https://drive.google.com/file/d/1HEo40R1AwKciPEAAmsU-4v7YfWHy-bRI/view?usp=share_link
+**Download pretrained & trained models and replace the models folder**: https://drive.google.com/file/d/1HEo40R1AwKciPEAAmsU-4v7YfWHy-bRI/view?usp=share_link
 
 The folder structure will look like this:
 ```
