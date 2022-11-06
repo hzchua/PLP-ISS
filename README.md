@@ -32,7 +32,7 @@ The objective of the project is to create an intelligent system to recommend res
 | Official Full Name  | Student ID (MTech Applicable) | Work Items (Who Did What)  |
 | ------------- |:-------------:| -----|
 | CHUA HAO ZI      | A0229960W | 1. Market Research & Literature Review </br> 2. System Architecture Design </br> 3. Chatbot Design and Creation </br> 4. Report Writing </br> 5. Creation of System Demo Video </br> 6. System Integration |
-| FRANSISCA THERESIA       | A0213540W |   work items |
+| FRANSISCA THERESIA       | A0213540W | 1. Market Research & Literature Review </br> 2. Text Summarization Modelling  </br> 3. Threshold Filtering using VADER Sentiment Analysis </br> 4. Report Writing |
 | LI XIAOXIA | A0229975J  | 1. Market Research & Literature Review </br> 2. Sentiment Polarity Detection Modelling </br> 3. Report Writing |
 | TAN WEE HAN | A0125244N | 1. Market Research & Literature Review </br> 2. Improvements Recommender with Aspect-Based Sentiment Analysis (ABSA) </br> 3. Report Writing |
 | FAN YUECHEN | A0141009W | 1. Market Research & Literature Review </br> 2. Restaurant Recommendation System </br> 3. Report Writing </br> 4. Creation of System Demo Video|
