@@ -29,7 +29,7 @@ The objective of the project is to create an intelligent system to recommend res
 
 ## **SECTION 3: CREDITS / PROJECT CONTRIBUTION**
 
-| Official Full Name        | Student ID (MTech Applicable) / Email (Optional)          | Work Items (Who Did What)  |
+| Official Full Name        | Student ID (MTech Applicable)          | Work Items (Who Did What)  |
 | ------------- |:-------------:| -----:|
 | CHUA HAO ZI      | A0229960W | work items |
 | FRANSISCA THERESIA       | A0213540W      |   work items |
