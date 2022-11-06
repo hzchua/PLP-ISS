@@ -69,8 +69,7 @@ models/
     mappingTable.pkl
     mnb_model.pkl
     similiarityMatrix.npy
-    cv-model_v3.pkl
-    mnb_model_v3.pkl
+    word2vec.model
 ```
 
 **Step 4: Install Dependencies**
