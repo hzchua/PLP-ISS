@@ -31,7 +31,7 @@ The objective of the project is to create an intelligent system to recommend res
 
 | Official Full Name        | Student ID (MTech Applicable)          | Work Items (Who Did What)  |
 | ------------- |:-------------:| -----:|
-| CHUA HAO ZI      | A0229960W | work items |
+| CHUA HAO ZI      | A0229960W | 1. System Architecture Design </br> 2. Chatbot Design and Creation |
 | FRANSISCA THERESIA       | A0213540W      |   work items |
 | LI XIAOXIA | A0229975J      |    Sentiment Polarity Detection Modelling |
 | TAN WEE HAN | A0125244N     |    Improvements recommender using aspect-based sentiment analysis |
