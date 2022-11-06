@@ -35,7 +35,7 @@ The objective of the project is to create an intelligent system to recommend res
 | FRANSISCA THERESIA       | A0213540W |   work items |
 | LI XIAOXIA | A0229975J  | 1. Market Research & Literature Review </br> 2. Sentiment Polarity Detection Modelling </br> 3. Report Writing |
 | TAN WEE HAN | A0125244N | 1. Market Research & Literature Review </br> 2. Improvements Recommender with Aspect-Based Sentiment Analysis (ABSA) </br> 3. Report Writing |
-| FAN YUECHEN | A0141009W | 1. Market Research & Literature Review </br> 2. Restaurant Recommendation System </br> 3. Report Writing |
+| FAN YUECHEN | A0141009W | 1. Market Research & Literature Review </br> 2. Restaurant Recommendation System </br> 3. Report Writing </br> 4. Creation of System Demo Video|
 
 
 ## **SECTION 4: Installation**
