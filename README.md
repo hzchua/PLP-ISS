@@ -34,7 +34,7 @@ The objective of the project is to create an intelligent system to recommend res
 | CHUA HAO ZI      | A0229960W | work items |
 | FRANSISCA THERESIA       | A0213540W      |   work items |
 | LI XIAOXIA | xxx      |    work items |
-| TAN WEE HAN | xxx      |    work items |
+| TAN WEE HAN | A0125244N     |    Improvements recommender using aspect-based sentiment analysis |
 | FAN YUECHEN | xxx      |    work items |
 
 
