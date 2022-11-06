@@ -33,7 +33,7 @@ The objective of the project is to create an intelligent system to recommend res
 | ------------- |:-------------:| -----:|
 | CHUA HAO ZI      | A0229960W | work items |
 | FRANSISCA THERESIA       | A0213540W      |   work items |
-| LI XIAOXIA | xxx      |    work items |
+| LI XIAOXIA | A0229975J      |    Sentiment Polarity Detection Modelling |
 | TAN WEE HAN | A0125244N     |    Improvements recommender using aspect-based sentiment analysis |
 | FAN YUECHEN | xxx      |    work items |
 
@@ -69,6 +69,8 @@ models/
     mappingTable.pkl
     mnb_model.pkl
     similiarityMatrix.npy
+    cv-model_v3.pkl
+    mnb_model_v3.pkl
 ```
 
 **Step 4: Install Dependencies**
