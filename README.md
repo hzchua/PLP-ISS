@@ -35,7 +35,7 @@ The objective of the project is to create an intelligent system to recommend res
 | FRANSISCA THERESIA       | A0213540W      |   work items |
 | LI XIAOXIA | A0229975J      |    Sentiment Polarity Detection Modelling |
 | TAN WEE HAN | A0125244N     |    Improvements recommender using aspect-based sentiment analysis |
-| FAN YUECHEN | xxx      |    work items |
+| FAN YUECHEN | A0141009W     |    Restaurant Recommendation Modelling by customer preference |
 
 
 ## **SECTION 4: Installation**
