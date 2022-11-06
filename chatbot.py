@@ -34,7 +34,7 @@ while user_input != "exit":
         restaurant = check_restaurant(res_list, sent_model)
         search_term = input("Sense-R: Is there any aspect that you are interested in?\nUser: ")
         print("Sense-R is looking through customer reviews.... Pls wait a while....")
-        output = res_imp(df, restaurant, search_term)   ## function for restaurant improvement
+        output = res_imp(restaurant, search_term)   ## function for restaurant improvement
         user_input = input("Sense-R: Are there any other things that I can help you with?\nUser: ")
         if user_input.lower() in ["n", "no", "nope"]:
             user_input = "exit"
