@@ -1,0 +1,35 @@
+,aspect,opinion,negative,neutral,positive
+0,Hostess,sweetheart,0,0,1
+1,Wings,Awesome,0,0,1
+2,Wings,best,0,0,1
+3,TV screens,big screen,0,0,1
+4,Lakers games,best,0,0,1
+5,Service,Awful service,1,0,0
+6,Wings,bland wings,1,0,0
+7,Restaurant,terribly upkept restaurant,1,0,0
+8,Time,took an hour for their chef to slather some sauce on a couple chicken wings,1,0,0
+9,Place,Great,0,0,1
+10,Activity,"watch the game, hang out with friends and kick back with a beer or two",0,0,1
+11,Service,worste part of the place,1,0,0
+12,Service,it take 10 minutes to make a drink on a laid back Monday,1,0,0
+13,Wings,take 20 minutes to make them,1,0,0
+14,Food,Love the food,0,0,1
+15,Atmosphere,Love the atmosphere,0,0,1
+16,Service,very bad service,1,0,0
+17,Staff,people are slow,1,0,0
+18,Food,make you wait for an hour to bring half if your food out,1,0,0
+19,Atmosphere,if you dont booze you dont get service,1,0,0
+20,Overall satisfaction,Its ok,0,1,0
+21,Trendiness,a little to trendy,1,0,0
+22,Wings,great,0,0,1
+23,Flavors,love all the flavors,0,0,1
+24,Service,one of my favorites,0,0,1
+25,Beer,one of my favorites,0,0,1
+26,Salad,nasty as hell,1,0,0
+27,Food safety,raw food,1,0,0
+28,Food quality,disgusting and unsafe,1,0,0
+29,Service,terrible,1,0,0
+30,Value for money,I spent $65,1,0,0
+31,Quality of food and service,steadily declining,1,0,0
+32,Raw boneless wings,got a few raw boneless wings,1,0,0
+33,Probability of returning,Probably wont be coming here much longer if at all,1,0,0

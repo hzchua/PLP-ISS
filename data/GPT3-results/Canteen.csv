@@ -1,0 +1,45 @@
+,aspect,opinion,mixed,negative,neutral,positive
+0,Size,pretty small,0,1,0,0
+1,Queueing,likely have to queue at peak times,0,1,0,0
+2,Breakfast/Brunch,good place,0,0,0,1
+3,Location,in a hotel,0,0,1,0
+4,Capacity,seats about 4 booths,0,0,1,0
+5,Food,excellent food,0,0,0,1
+6,Value,one of the better values around,0,0,0,1
+7,Size of kitchen,size of a closet,0,1,0,0
+8,Food,amazing food,0,0,0,1
+9,Menu,Small menu,0,1,0,0
+10,Cuisine,Awesome,0,0,0,1
+11,Ambiance,feels like you're going to have dinner in the cafeteria of your kids college dorm,0,1,0,0
+12,Portion size,Small,0,1,0,0
+13,Consistency,consistent,0,0,0,1
+14,Value,great value,0,0,0,1
+15,Repeat visits,Worth repeat trips,0,0,0,1
+16,Setting,simple,0,0,0,1
+17,Menu,simple,0,0,0,1
+18,Wine list,simple (but with good affordable options),0,0,0,1
+19,Wait staff,well-trained,0,0,0,1
+20,Venison,prepared perfectly,0,0,0,1
+21,Halibut,prepared perfectly,0,0,0,1
+22,Brunch,Very good,0,0,0,1
+23,French toast,I love their french toast,0,0,0,1
+24,American cuisine,very good,0,0,0,1
+25,Bar service,lacks a full service bar,0,1,0,0
+26,Wine selection,decent wines,0,0,0,1
+27,Size,so small,0,1,0,0
+28,Wait time,wait can be quite long,0,1,0,0
+29,Waitress,nice,0,0,0,1
+30,Decor,tries to be homey but ends up feeling drab,0,1,0,0
+31,Food,some items totally fell flat,0,1,0,0
+32,Crab Benedict,okay,0,1,0,0
+33,Potatoes,Comes with a side of potatoes,0,0,0,1
+34,Price,casual but not inexpensive,0,1,0,0
+35,Food,good or interesting but flawed or even spectacular,1,0,0,0
+36,Value for money,certainly worth dropping in every once and a while,0,0,0,1
+37,Availability,dropping in isnt much of an option since it is so popular,0,1,0,0
+38,Wine selection,lots of interesting wines by the glass,0,0,0,1
+39,Wait time,Long wait wasn't worth it,0,1,0,0
+40,Size,"Odd, tiny little place",0,1,0,0
+41,Price,expensive food,0,1,0,0
+42,Food,"The food was fine, but not good enough to justify the price",0,1,0,0
+43,Ambiance,cramped feel,0,1,0,0
