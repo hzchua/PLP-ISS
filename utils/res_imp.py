@@ -5,7 +5,7 @@ model = Word2Vec.load("models/word2vec.model")
 
 def res_imp(restaurant, search_term = ''):
     # read absa results
-    result = pd.read_json('result.json')
+    result = pd.read_json('data/result.json')
     
     # confirm restaurant name if restaurant name doesn't match
     name = process.extractOne(restaurant, set(result['name']))
