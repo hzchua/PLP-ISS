@@ -16,7 +16,7 @@ def res_imp(restaurant, search_term = ''):
         restaurant = input("Sense-R: Which restaurant are you referring to?\nUser: ")
         name = process.extractOne(restaurant, set(result['name']))
     
-    print("For " + str(name[0]) + ":\n")
+    print("For " + str(name[0]) + ":")
     
     # get on results for restaurant
     restaurant_result = result.loc[result['name'] == restaurant]
